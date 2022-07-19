@@ -44,3 +44,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ![image](./assets/images/Challenge2.1.png)
 ![iamge](./assets/images/Challenge2.2.png)
+
+
+GitHub link: https://github.com/RunninFridge/second-challenge-hw
+Running link: https://runninfridge.github.io/second-challenge-hw/
