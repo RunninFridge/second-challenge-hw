@@ -1,0 +1,120 @@
+body {
+	display:flexbox;
+	flex-wrap: wrap;
+	background-color: lightgray;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+	-moz-transition: color 0.2s ease-in-out; 
+	-webkit-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	color: inherit;
+	text-decoration: none;
+}
+	a:hover {
+		border-bottom-color: transparent;
+		color: #2f5597;
+	}
+
+	a:active {
+		color: #021d4a;
+	}
+header{
+
+	background-color: white;
+}
+ul {
+	display: fixed;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #949292;
+	width: 100%;
+}
+	  
+li {
+	float: right;
+	padding: 10px;
+}
+	  
+li a {
+	display: flex;
+	padding: 18px;
+	width: 100%;
+}
+
+#grid-container {
+	display:grid;
+	grid-template-columns: auto auto auto;
+	padding: 8px;
+}
+		
+#grid-container div {
+	padding-left: 10px;	
+	padding-top: 150px;	
+	font-size: 24px;
+
+}
+		
+#box-1 {
+	grid-row-start: 1;
+	grid-row-end: 7;
+	border-right: solid black;
+	display: block;
+}
+
+.sidebar-left {
+	margin: 0px;
+	padding-bottom: 300px;
+	text-align: left;
+	padding-right: 10px;
+}
+.major1 {
+	position: flex;
+	padding:50px;
+	background-color: transparent;
+	background-image: url(./images/pic01.jpg);
+}
+.major2 {
+	position: flex;
+	padding: 50px;
+	background-color: transparent;
+	background-image: url(./images/pic02.jpg);
+}
+.major3 {
+	position: flex;
+	padding: 50px;
+	background-color: transparent;
+	background-image: url(./images/pic03.jpg);
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+@media screen and (max-width: 1680px) {
+
+	body, input, select, textarea {
+		font-size: 14pt;
+	}
+
+}
+
+@media screen and (max-width: 1280px) {
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+
+}
